@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
           children: [
             Expanded(child: Container()),
             Container(
-              margin: const EdgeInsets.only(left: 20, right: 20,),
+              margin: const EdgeInsets.only(left: 20, right: 20, bottom: 20),
               child:  InkWell(onTap:(){},child:const MainButton(text: "Get Started", buttonColor: AppColors.buttonColor)),
             ),
             TextButton(onPressed: (){}, child: RichText(text: const TextSpan(
