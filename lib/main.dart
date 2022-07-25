@@ -1,7 +1,12 @@
 
+import 'package:campus_app/screens/home_page.dart';
+import 'package:campus_app/screens/login_screen.dart';
+import 'package:campus_app/screens/nav_pages/home_screen.dart';
+
 import 'package:flutter/material.dart';
 
-import 'screens/home_page.dart';
+import 'screens/nav_pages/communication_screen.dart';
+import 'screens/nav_pages/register_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +25,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage()
+      home:  HomeScreen(),
     );
   }
 }
